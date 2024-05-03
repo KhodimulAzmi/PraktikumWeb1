@@ -7,7 +7,7 @@ Setiap elemen memiliki labelnya tersendiri dan juga tag yang berbeda-beda, dan p
  
 Diatas merupakan contoh dari sebuah pendeklarasian dari penggunaan HTML : 
 <ul type="disc">
-<li> <b>DOCTYPE html</b> merupakan tag pendefinisian bahwa bahasa yang akan digunakan ialah HTML, sebenarnya hal ini tidak wajib dilakukan karena pada basic-nya file berjenis .html akan menggunakan html,
+<li> <b>!DOCTYPE html</b> merupakan tag pendefinisian bahwa bahasa yang akan digunakan ialah HTML, sebenarnya hal ini tidak wajib dilakukan karena pada basic-nya file berjenis .html akan menggunakan html,
 namun dengan tag ini maka HTML yang akan kita gunakan akan HTML versi yang paling baru saat ini, yakni versi 5. </li>
 <li> <html lang=”en-US”> merupakan pendefinisian bahasa  dan negara yang digunakan, sebenarnya tidak terlalu berefek kepada web yang kita buat karena pada dasarnya web kita akan otomatis menggunakan bahasa Inggris. </li>
 <li> <head> merupakan bagian kepala dari website, pada head ini, kita dapat memberikan berbagai macam tag di dalamnya seperti <head> seperti pada gambar diatas untuk memberi judul pada header website,
