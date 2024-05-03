@@ -70,9 +70,9 @@ diambil dari sumber lain.
 
 Ketika kita membuat website, pastinya website kita akan terasa monoton apabila tidak menyertakan gambar atau
 komponen lain, dan juga komponen-komponen tersebut mempunyai fungsi-fungsi yang berbeda.
-<ol type="square">
+<ul>
 <li>Link pada HTML dapat digunakan untuk menghubungkan antara halaman web yang kita buat dengan halaman web yang lain, web tersebut dapat web kita yang lain atau web milik orang lain.</li>
-<ul type="a">
+<ul type="disc">
 <li>Menggunakan link untuk menyambungkan website kita dengan yang lain, dapat dilakukan dengan menggunakan tag <b>a href</b>, dengan menempatkan link yang kita tuju
 pada tag tersebut, maka ketika pada output, value yang kita masukkan akan dapat ditekan dan akan menuju ke web yang kita inginkan. </li>
 <i>*gambar link</i>
