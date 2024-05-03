@@ -1,7 +1,7 @@
 # HTML
 <b>HTML</b> atau kepanjangannya ialah <i>Hyper Text Markup Language</i> yang merupakan bahasa yang sering digunakan dalam membuat halaman website. HTML mendeskripsikan struktur dari web itu sendiri, apabila digambarkan seperti kita sedang 
 membangun sebuah rumah maka HTML inilah yang akan menjadi desain dan pondasinya. HTML terdiri dari banyak elemen didalamnya dan elemen-elemen inilah yang nantinya akan menampilkan isi dari website yang kita buat. 
-Setiap elemen memiliki labelnya tersendiri dan juga tag yang berbeda-beda, dan perlu diingat bahwa tag pada HTML selalu di dalam tanda “< >” kemudian diakhiri dengan tanda “</ >” seperti yang ada di bawah ini :
+Setiap elemen memiliki labelnya tersendiri dan juga tag yang berbeda-beda, dan perlu diingat bahwa tag atau atribut pada HTML selalu di dalam tanda “< >” kemudian diakhiri dengan tanda “</ >” seperti yang ada di bawah ini :
 
 <i>*gambar basic</i>
  
@@ -90,5 +90,6 @@ pada tag tersebut, maka ketika pada output, value yang kita masukkan akan dapat 
 	<i>*gambar link img</i>
   	<li>apabila ingin menggunakan tombol, kita dapat menggunakan <b>event</b> (bagian dari JavaScript) yang bisa digunakan pada button, misalnya ialah <b>onclick</b></li>
 	<i>*gambar link button</i>
+</ol></ul>
+<li>Image pada HTML </li>
 </ol>
-
