@@ -54,7 +54,7 @@ Berikut terdapat beberapa formatting yang ada pada HTML. Penggunaan formatting d
 Didalam HTML, terdapat juga tag untuk membuat quote dan sitasi atau juga yang biasa disebut dengan kutipan. Kutipan dapat digunakan untuk memberitahukan bahwa suatu tulisan
 diambil dari sumber lain.
 
-<i>*gambar<i>
+<i>*gambar</i>
 
 <ul type="disc">
   <li> tag <b>bockquote</b> memnbuat teks yang kita apit terdefinisikan bahwa itu dikutip dari sumber lain.</li>
