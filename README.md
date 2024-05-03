@@ -72,7 +72,7 @@ Ketika kita membuat website, pastinya website kita akan terasa monoton apabila t
 komponen lain, dan juga komponen-komponen tersebut mempunyai fungsi-fungsi yang berbeda.
 <ul>
 <li>Link pada HTML dapat digunakan untuk menghubungkan antara halaman web yang kita buat dengan halaman web yang lain, web tersebut dapat web kita yang lain atau web milik orang lain.</li>
-<ul type="disc">
+<ul type="circle">
 <li>Menggunakan link untuk menyambungkan website kita dengan yang lain, dapat dilakukan dengan menggunakan tag <b>a href</b>, dengan menempatkan link yang kita tuju
 pada tag tersebut, maka ketika pada output, value yang kita masukkan akan dapat ditekan dan akan menuju ke web yang kita inginkan. </li>
 <i>*gambar link</i>
@@ -90,6 +90,19 @@ pada tag tersebut, maka ketika pada output, value yang kita masukkan akan dapat 
 	<i>*gambar link img</i>
   	<li>apabila ingin menggunakan tombol, kita dapat menggunakan <b>event</b> (bagian dari JavaScript) yang bisa digunakan pada button, misalnya ialah <b>onclick</b></li>
 	<i>*gambar link button</i>
-</ol></ul>
-<li>Image pada HTML </li>
 </ol>
+<li>Image pada HTML dapat dimasukkan dengan 2 cara yakni :</li>
+	<ol type="circle">
+		<li>Dapat dengan mendownload terlebih dahulu gambar yang akan digunakan, kemudian dipanggil seperti yang ada di bawah ini : </li>
+		<i>*gambar img dwnlded</i>
+		<li>Cara yang lain adalah dengan menyalin gambar dari browser, namun cara ini rentan dengan copyright dan juga link yang digunakan harus 
+		berakhiran dengan format yang didukung oleh HTML, seperti png atau jpg.</li>
+		<i>*gambar img non-dwnlded</i>
+	</ol>
+</ul></ul>
+
+# Tabel dalam HTML
+
+Tabel merupakan elemen yang sering kita gunakan dalam kegiatan sehari-hari, tabel berguna untuk menampilkan data agar mudah dimengerti dan juga lebih rapi.
+Tabel dapat ditampilkan pada HTML melalui tag <b>table</b>.
+
