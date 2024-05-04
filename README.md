@@ -170,5 +170,5 @@ Proses ini juga dapat dimasukkan ke dalam variabel.
 	 <li><b>onclick</b> akan membuat ketika objek di kilk, event akan berjalan</li>
 	 <li><b>doubleclick</b> akan membuat ketika objek di kilk dua kali, event akan berjalan</li>
 	 <li><b>onmouseover</b> akan membuat event berjalan ketika pointer mouse diarahkan ke objek</li>
-	 <li><b>onmouseout/b> akan membuat event berjalan ketika pointer mouse meninggalkan objek</li>
+	 <li><b>onmouseout</b> akan membuat event berjalan ketika pointer mouse meninggalkan objek</li>
  </ul>
