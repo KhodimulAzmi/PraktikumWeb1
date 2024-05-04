@@ -1,4 +1,4 @@
-# HTML
+## HTML
 <b>HTML</b> atau kepanjangannya ialah <i>Hyper Text Markup Language</i> yang merupakan bahasa yang sering digunakan dalam membuat halaman website. HTML mendeskripsikan struktur dari web itu sendiri, apabila digambarkan seperti kita sedang 
 membangun sebuah rumah maka HTML inilah yang akan menjadi desain dan pondasinya. HTML terdiri dari banyak elemen didalamnya dan elemen-elemen inilah yang nantinya akan menampilkan isi dari website yang kita buat. 
 Setiap elemen memiliki labelnya tersendiri dan juga tag yang berbeda-beda, dan perlu diingat bahwa tag atau atribut pada HTML selalu di dalam tanda “< >” kemudian diakhiri dengan tanda “</ >” seperti yang ada di bawah ini :
@@ -90,7 +90,7 @@ pada tag tersebut, maka ketika pada output, value yang kita masukkan akan dapat 
 	<i>*gambar link img</i>
   	<li>apabila ingin menggunakan tombol, kita dapat menggunakan <b>event</b> (bagian dari JavaScript) yang bisa digunakan pada button, misalnya ialah <b>onclick</b></li>
 	<i>*gambar link button</i>
-</ol>
+</ol></ul>
 <li>Image pada HTML dapat dimasukkan dengan 2 cara yakni :</li>
 	<ol type="circle">
 		<li>Dapat dengan mendownload terlebih dahulu gambar yang akan digunakan, kemudian dipanggil seperti yang ada di bawah ini : </li>
@@ -99,10 +99,33 @@ pada tag tersebut, maka ketika pada output, value yang kita masukkan akan dapat 
 		berakhiran dengan format yang didukung oleh HTML, seperti png atau jpg.</li>
 		<i>*gambar img non-dwnlded</i>
 	</ol>
-</ul></ul>
+</ul>
 
 # Tabel dalam HTML
 
 Tabel merupakan elemen yang sering kita gunakan dalam kegiatan sehari-hari, tabel berguna untuk menampilkan data agar mudah dimengerti dan juga lebih rapi.
 Tabel dapat ditampilkan pada HTML melalui tag <b>table</b>.
+Tabel dalam HTML dapat dibuat dengan tag-tag berikut :
+<ul>
+<li>tag <b>table</b> dapat berguna untuk menandakan bahwa elemn didalamnya termasuk dalam tabel.</li>
+<li>tag <b>tr</b> dapat digunakan untuk membuat row atau baris pada tabel yang kita buat.</li>
+<li>tag <b>td</b> digunakan untuk membuat kolom pada tabel.</li>
+<li>tag <b>colspan</b> untuk merangkap kolom.</li>
+<li>tag <b>rowspan</b> untuk merangkap baris.</li>
+</ul>
+*coding + output tabel
+
+# List dalam HTML
+
+Selain tabel, di dalam HTML juga terdapat List, dengan list, kita dqapat mengelompokan beberapa item yang saling berhubungan satu sama lainnya.
+List dalam HTML terbagi dalam 2 jenis yaitu :
+<ul>
+	<li><b>Unordered List</b>, list ini ditandai dengan bagian bullet dari list yang berupa gambar dan tidak berurutan, jenis-jenis unordered listv ada beberapa seperti square, circle, dan disc. Unordered list dapat dibuat dengan menggunakan tag <b>ul</b>.</li>
+	<li><b>Ordered List</b>, merupakan list yang bagian bulletnya memiliki urutan, urutan-urutan tersebut dapat berupa angka, romawi, atau alfabet. Jenis dari ordered list ada beberapa seperti a, i, dan number. Ordered list dapat dibuat dengan menggunakan tag <b>ol</b>.</li>
+	<li>Dalam membuat isi dari list, kita dapat menggunakan tag <b>li</b> dan tag ini diletakkan di dalam tag ol atau ul tadi.</li>
+	<li>List juga dapat dilakukan secara bertingkat, misalnya ialah di dalam ul terdapat ul lain atau ol, hal ini disebut <b>nested list</b>.</li>
+</ul>
+*coding + output list
+
+## CSS
 
