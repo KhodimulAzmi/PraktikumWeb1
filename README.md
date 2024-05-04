@@ -1,11 +1,7 @@
 ## HTML
 <b>HTML</b> atau kepanjangannya ialah <i>Hyper Text Markup Language</i> yang merupakan bahasa yang sering digunakan dalam membuat halaman website. HTML mendeskripsikan struktur dari web itu sendiri, apabila digambarkan seperti kita sedang 
 membangun sebuah rumah maka HTML inilah yang akan menjadi desain dan pondasinya. HTML terdiri dari banyak elemen didalamnya dan elemen-elemen inilah yang nantinya akan menampilkan isi dari website yang kita buat. 
-Setiap elemen memiliki labelnya tersendiri dan juga tag yang berbeda-beda, dan perlu diingat bahwa tag atau atribut pada HTML selalu di dalam tanda “< >” kemudian diakhiri dengan tanda “</ >” seperti yang ada di bawah ini :
-
-<i>*gambar basic</i>
- 
-Diatas merupakan contoh dari sebuah pendeklarasian dari penggunaan HTML : 
+Setiap elemen memiliki labelnya tersendiri dan juga tag yang berbeda-beda, dan perlu diingat bahwa tag atau atribut pada HTML selalu di dalam tanda “< >” kemudian diakhiri dengan tanda “</ >”.
 <ul type="disc">
 <li> <b>!DOCTYPE html</b> merupakan tag pendefinisian bahwa bahasa yang akan digunakan ialah HTML, sebenarnya hal ini tidak wajib dilakukan karena pada basic-nya file berjenis .html akan menggunakan html,
 namun dengan tag ini maka HTML yang akan kita gunakan akan HTML versi yang paling baru saat ini, yakni versi 5. </li>
@@ -21,8 +17,6 @@ Di dalam body HTML, terdapat berbagai tag yang tersedia yang dapat membantu dala
 
 Header dan paragraf dalam HTML merupakan elemen yang sangat sering dijumpai pada setiap web, pasalnya adalah karena elemen inilah yang menyusun suatu web, dalam membuat paragraf
 atau header, terdapat beberapa tag yang berguna sebagai berikut :
-
-<i>*gambar header</i>
 	
 <ul type="disc">
 <li>tag <b>h1</b> biasa digunakan untuk membuat header atau judul pada website, tag ini dapat divariasikan dari h1 sampai dengan h6,
@@ -36,9 +30,6 @@ ukuran text akan semakin kecil ketika menggunakan angka yang lebih besar misalny
 	
 Formatting pada HTML digunakan untuk menandai atau memberi tekanan lebih pada teks yang diinginkan. Alasan untuk ditekankan adalah agar pembaca atau pengguna web akan menaruh perhatian mereka kepada teks yang kita tekankan.
 Berikut terdapat beberapa formatting yang ada pada HTML. Penggunaan formatting dapat dilakukan dengan mengapit kalimat atau kata yang ingin ditekankan dengan tag yang ingin digunakan.
-
-<i>*gambar format</i>
-
 <ul type="disc">
 <li>tag <b>b</b> dan <b>strong</b> berguna untuk membuat teks seperti menjadi lebih tebal seperti yang ada pada gambar diatas.</li>
 <li>tag <b>i</b> dan <b>em</b> atau <b>emphasized</b> akan membuat teks menjadi ditampilkan miring.</li>
@@ -53,8 +44,6 @@ Berikut terdapat beberapa formatting yang ada pada HTML. Penggunaan formatting d
 
 Didalam HTML, terdapat juga tag untuk membuat quote dan sitasi atau juga yang biasa disebut dengan kutipan. Kutipan dapat digunakan untuk memberitahukan bahwa suatu tulisan
 diambil dari sumber lain.
-
-<i>*gambar citation</i>
 
 <ul type="disc">
   <li> tag <b>bockquote</b> memnbuat teks yang kita apit terdefinisikan bahwa itu dikutip dari sumber lain.</li>
@@ -87,17 +76,15 @@ pada tag tersebut, maka ketika pada output, value yang kita masukkan akan dapat 
 <ol> 
 	<li>apabila ingin menggunakan gambar, maka akan mirip dengan ketika kita menggunakan teks, namun value dari link tersebut kita ganti menjadi menggunakan img,
 		penjelasan bagaimana memasukkan gambar ke html akan ada dibawah ini.</li>
-	<i>*gambar link img</i>
   	<li>apabila ingin menggunakan tombol, kita dapat menggunakan <b>event</b> (bagian dari JavaScript) yang bisa digunakan pada button, misalnya ialah <b>onclick</b></li>
-	<i>*gambar link button</i>
 </ol></ul>
 <li>Image pada HTML dapat dimasukkan dengan 2 cara yakni :</li>
 	<ol type="circle">
 		<li>Dapat dengan mendownload terlebih dahulu gambar yang akan digunakan, kemudian dipanggil seperti yang ada di bawah ini : </li>
-		<i>*gambar img dwnlded</i>
+		<b>img src="img.png" </b>
 		<li>Cara yang lain adalah dengan menyalin gambar dari browser, namun cara ini rentan dengan copyright dan juga link yang digunakan harus 
 		berakhiran dengan format yang didukung oleh HTML, seperti png atau jpg.</li>
-		<i>*gambar img non-dwnlded</i>
+		<b>img src="https//.... .png" </b>
 	</ol>
 </ul>
 
@@ -113,7 +100,6 @@ Tabel dalam HTML dapat dibuat dengan tag-tag berikut :
 <li>tag <b>colspan</b> untuk merangkap kolom.</li>
 <li>tag <b>rowspan</b> untuk merangkap baris.</li>
 </ul>
-*coding + output tabel
 
 # List dalam HTML
 
@@ -125,11 +111,9 @@ List dalam HTML terbagi dalam 2 jenis yaitu :
 	<li>Dalam membuat isi dari list, kita dapat menggunakan tag <b>li</b> dan tag ini diletakkan di dalam tag ol atau ul tadi.</li>
 	<li>List juga dapat dilakukan secara bertingkat, misalnya ialah di dalam ul terdapat ul lain atau ol, hal ini disebut <b>nested list</b>.</li>
 </ul>
-*coding + output list
 
 ## CSS
-CSS atau kepanjangannya ialah Cascading Style Sheet merupakanh suartu bahasa pemograman yang digunakan untuk menghias atau mengedit tampilan dari website, CSS dapat digunakan oleh berbagai file, menjadikannya sangat efisien. CSS dapat diberikan dengan tiga cara, yakni <b>Internal</b> dimana CSS akan dimasukkan di dalam head dari web yang diawali dengan t5ag, <b>eksternal</b> dimana file dengan .css akan dipanggil, dan juga <b>inline</b> dimana css disisipkan didalam atribgut HTML.
-*gambar CSS basic
+CSS atau kepanjangannya ialah Cascading Style Sheet merupakanh suartu bahasa pemograman yang digunakan untuk menghias atau mengedit tampilan dari website, CSS dapat digunakan oleh berbagai file, menjadikannya sangat efisien. CSS dapat diberikan dengan tiga cara, yakni <b>Internal</b> dimana CSS akan dimasukkan di dalam head dari web yang diawali dengan t5ag, <b>eksternal</b> dimana file dengan .css akan dipanggil, dan juga <b>inline</b> dimana css disisipkan didalam atribut HTML.
 
 # Selector
 Selector dalam CSS ada beberapa, setiap selector memang ditujukan untuk fungsi pemanggilan yang berbeda.
@@ -138,7 +122,20 @@ Selector dalam CSS ada beberapa, setiap selector memang ditujukan untuk fungsi p
 	<li>selector dengan <b>".nama{}"</b> merupakan selector untuk class yang dimana hanya class yang disinggung saja yang akan terkena efek CSS</li>
 	<li>selector dengan <b>"#nama{}"</b>b> merupakan selector untuk id, jadi hanya elemen yang memiliki id yang sama sajalah yang akan terkena efek dari CSS.</li>
 </ul>
-*gambar selector
 
 # Text
-Dalam menggunakan CSS untuk text, terdapat banyak sekali fitur yang bisa digunakan, fitur-fitur tersebut dapat 
+Dalam menggunakan CSS untuk text, terdapat banyak sekali fitur yang bisa digunakan, fitur-fitur tersebut dapat membuat text lebvih terasa segar dan bervariasi. fitur dalam bagian ini sangatlah banyak, sehingga disini hanya akan disebutkan beberapa.
+<ul>
+	<li><b>font-size</b> dapat membuat kita leluasa salam mengubah dan menyesuaikan ukuran teks.</li>
+	<li><b>text-align</b> dapat membuat kita menyesuaikan dimana text ditempatkan.</li>
+	<li><b>text-decoration</b> dapat memberikan hiasan pada text.</li>
+	<li><b>font-family</b> dapat membuat kita leluasa dalam memilih jenis font yang digunakan.</li>
+	
+</ul>
+
+# Hover
+Hover merupakan sebuah CSS yang digunakan untuk memperjelas bagian mana yang sedang kita pilih dengan mouse (di PC) atau ketika di klik (di HP/Android), ini berguna untuk mencegah kesalahan ketika kita hendak memilih sesuatu di dalam web. penggunaan hover dapat dilakukan seperti ini : <br>
+<i> hover{background-color: red} </i><br>
+Fitur yang dapat diletakkan di dalam hover bisa beragam tergantung kebutuhan.
+
+##JavaScript5
