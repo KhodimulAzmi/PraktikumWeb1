@@ -141,13 +141,18 @@ Fitur yang dapat diletakkan di dalam hover bisa beragam tergantung kebutuhan.
 ## JavaScript
 <p>JavaScript atau yang biasa disingkat dengan JS ini merupakan bagian yang berperan dalam proses-proses sistem di dalam web, dan dengan JavaScript ini pula, kita dapat mengedit seperti mengganti, menambah, atau lainnya ke dalam web kita. Dalam kata lain, JS akan membuat web yang kita buat lebih dinamis dan responsif.</p>
 <p>JavaScript dapat diberikan pada HTML pada bagian body ataupun head, dan terlebihy blagi, JS juga bisa dipanggil secara eksternal, ini membuat JS juga dapat digunakan secara fleksibel sama seperti CSS. JS diawali dengan tag "script" dan berisi bagaimana sistem dalam web kita akan berjalan.</p>
+
 # JS Variabel
+
 Di dalam JS, variabel dapat dibuat dengan menggunakan beberapa atribut, namun berbeda dengan HTML, JS tidak perlu diawali ataub ditutup dengan tanda <>, kita dapat membuatnya secara langsung. Variabel dalam JS dapat dibuat seperti ini :
 <ul>
 	<li><b>Let</b>, contohnya "Let x = 1;".</li>
 	<li><b>Var</b>, contohnya "Var a = 9;".</li>
 	<li><b>Const</b>, contohnya "Const c = "buah";".</li>
- # JS Aritmatika
+</ul>
+	
+# JS Aritmatika
+	
  Di dalam JS, kita dapat memasukkan proses penghitungan atau aritmatika di dalamnya. 
 Proses penghitungan ini dapat digunakan untuk berbagai hal sesuai dengan kebutuhan, misalnya dalam membuat website kalkulator atau yang lain.
 Proses ini juga dapat dimasukkan ke dalam variabel.
@@ -157,7 +162,9 @@ Proses ini juga dapat dimasukkan ke dalam variabel.
 		<li>/ untuk pembagian</li>
 		<li>* untuk perkalian</li>
 	</ul>
+ 
  # JS Event
+ 
  Di Dalam JS, trdaqpat juga Event yang dapat kita gunakan untuk memberikan fitur kepada value, gambar, atau objek lain dalam web.
  <ul>
 	 <li><b>onclick</b> akan membuat ketika objek di kilk, event akan berjalan</li>
