@@ -128,4 +128,17 @@ List dalam HTML terbagi dalam 2 jenis yaitu :
 *coding + output list
 
 ## CSS
+CSS atau kepanjangannya ialah Cascading Style Sheet merupakanh suartu bahasa pemograman yang digunakan untuk menghias atau mengedit tampilan dari website, CSS dapat digunakan oleh berbagai file, menjadikannya sangat efisien. CSS dapat diberikan dengan tiga cara, yakni <b>Internal</b> dimana CSS akan dimasukkan di dalam head dari web yang diawali dengan t5ag, <b>eksternal</b> dimana file dengan .css akan dipanggil, dan juga <b>inline</b> dimana css disisipkan didalam atribgut HTML.
+*gambar CSS basic
 
+# Selector
+Selector dalam CSS ada beberapa, setiap selector memang ditujukan untuk fungsi pemanggilan yang berbeda.
+<ul>
+	<li>selector dengan <b>"nama{}"</b> merupakan selector untuk atribut dimana bagian yang akan terkena oleh CSS adalah bagian yang disinggung.</li>
+	<li>selector dengan <b>".nama{}"</b> merupakan selector untuk class yang dimana hanya class yang disinggung saja yang akan terkena efek CSS</li>
+	<li>selector dengan <b>"#nama{}"</b>b> merupakan selector untuk id, jadi hanya elemen yang memiliki id yang sama sajalah yang akan terkena efek dari CSS.</li>
+</ul>
+*gambar selector
+
+# Text
+Dalam menggunakan CSS untuk text, terdapat banyak sekali fitur yang bisa digunakan, fitur-fitur tersebut dapat 
