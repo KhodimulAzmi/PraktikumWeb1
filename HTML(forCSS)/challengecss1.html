@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Table</title>
+    <style>
+        table, th, td {
+          border: 1px double black;
+          background-color: cyan;
+        }
+        #para1 {
+            color: chocolate;
+            text-align: center;
+        }
+        tr:nth-child(even) {
+        text-align: left;
+                        }
+        tr:nth-child(odd) {
+        text-align: right;
+                        }
+        .icon{
+            height: auto;
+            width:30px;
+        }
+        </style>
+</head>
+<body>
+    <table>
+        <tr id="para1">
+            <td>Materi</td>
+            <td>Sub Materi</td>
+            <td>Icon</td>
+        </tr>
+        <tr>
+             <td>Materi 1</td>
+             <td><a href="https://www.w3schools.com/html" target="blank">HTML</a></td>
+             <td><img src="https://www.techfor.id/wp-content/uploads/2019/12/html.png"
+                alt="Html" class="icon"></td>
+        </tr>
+        <tr>
+        <td>Materi 2</td>
+        <td><a href="https://www.w3schools.com/css" target="blank">
+            CSS</a></td>
+         <td><img src="https://miro.medium.com/v2/resize:fit:1358/1*Od-UrquQOrcwEkpDwwkCiQ.png"
+                alt="CSS" class="icon"></td>
+        </tr>
+        <tr>
+        <td>Materi 3</td>
+        <td><a href="https://www.w3schools.com/js/default.asp" target="blank">JavaScript</a></td>
+        <td> <img src="https://miro.medium.com/v2/resize:fit:1200/0*_bK5vZ69rbZo_Z37.png"
+            alt="JavaScript" class="icon"></td>
+        </tr>
+    </table>
+</body>
+</html>
